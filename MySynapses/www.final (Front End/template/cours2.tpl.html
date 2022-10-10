@@ -1,0 +1,24 @@
+{{#detailcours}}
+<div class="rounded border">
+
+  <div class="card">
+    <div class="card-body">
+      
+      <h3><span id="badgecode" class="badge bg-info"> <script></script> </span> {{title}} </h3>
+    </div>
+  </div>
+  
+  <br>
+  <span id="prof">
+  
+  {{#professor}}
+    {{.}} /
+  {{/professor}}
+  </span>
+  <br>
+  <br>
+  <span id="sum">{{{summary}}}</span>
+  
+
+</div>
+{{/detailcours}}
